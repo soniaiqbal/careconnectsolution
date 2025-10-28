@@ -1,11 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Home - IIS Care Connect Solutions')
+@section('title', 'Home | Care Connect Solutions')
 
 @section('content')
 <main class="main">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
       <div class="container-fluid p-0">
         <div class="hero-wrapper">
@@ -93,9 +92,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /Hero Section -->
+    </section>
 
-    <!-- Home About Section -->
     <section id="home-about" class="home-about section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -172,9 +170,8 @@
 
       </div>
 
-    </section><!-- /Home About Section -->
+    </section>
 
-    <!-- Featured Departments Section -->
     <section id="featured-departments" class="featured-departments section">
 
       <!-- Section Title -->
@@ -305,9 +302,8 @@
 
       </div>
 
-    </section><!-- /Featured Departments Section -->
+    </section>
 
-    <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section light-background">
 
       <!-- Section Title -->
@@ -408,9 +404,8 @@
 
       </div>
 
-    </section><!-- /Featured Services Section -->
+    </section>
 
-    <!-- Find A Doctor Section -->
     <section id="find-a-doctor" class="find-a-doctor section">
 
       <!-- Section Title -->
@@ -614,9 +609,8 @@
 
       </div>
 
-    </section><!-- /Find A Doctor Section -->
+    </section>
 
-    <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -703,9 +697,8 @@
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>
 
-    <!-- Emergency Info Section -->
     <section id="emergency-info" class="emergency-info section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -885,7 +878,7 @@
 
       </div>
 
-    </section><!-- /Emergency Info Section -->
+    </section>
 
 </main>
 
