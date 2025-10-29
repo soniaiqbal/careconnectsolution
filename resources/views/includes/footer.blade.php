@@ -4,20 +4,19 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">MediTrust</span>
+            <span class="sitename">Care Connect Solutions</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <p>19, The ArK, I8 Markaz, Islamabad</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+923040513423 | +923115221899</span></p>
             <p><strong>Email:</strong> <span>info@careconnectsolution.org</span></p>
           </div>
-          <div class="social-links d-flex mt-4">
+          <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> -->
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
