@@ -50,7 +50,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="appointment.html">Appointment</a>
+      <a class="btn-getstarted" href="{{ route('contact') }}">Appointment</a>
 
     </div>
 </header>

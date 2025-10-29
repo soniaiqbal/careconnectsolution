@@ -19,11 +19,11 @@
                   <div class="content-box">
                     <span class="badge-accent" data-aos="fade-up" data-aos-delay="150">Leading Healthcare Specialists</span>
                     <h1 data-aos="fade-up" data-aos-delay="200">Advanced Medical Care for Your Family's Health</h1>
-                    <p data-aos="fade-up" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <p data-aos="fade-up" data-aos-delay="250">Caring for your family with trusted doctors and modern health solutions.</p>
 
                     <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
-                      <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
-                      <a href="services.html" class="btn btn-outline">Explore Services</a>
+                      <a href="{{ route('contact') }}" class="btn btn-primary">Book Appointment</a>
+                      <a href="{{ route('services') }}" class="btn btn-outline">Explore Services</a>
                     </div>
 
                     <div class="info-badges" data-aos="fade-up" data-aos-delay="350">
@@ -31,7 +31,7 @@
                         <i class="bi bi-telephone-fill"></i>
                         <div class="badge-content">
                           <span>Emergency Line</span>
-                          <strong>+1 (555) 987-6543</strong>
+                          <strong>+92 304 0513423</strong>
                         </div>
                       </div>
                       <div class="badge-item">
@@ -56,7 +56,7 @@
                       </div>
                       <div class="feature-text">
                         <h3>Cardiology</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Comprehensive heart care and expert guidance for a stronger, healthier life.</p>
                       </div>
                     </div>
                   </div>
@@ -68,7 +68,7 @@
                       </div>
                       <div class="feature-text">
                         <h3>Pulmonology</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Advanced care for respiratory health and breathing wellness.</p>
                       </div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@
                       </div>
                       <div class="feature-text">
                         <h3>Diagnostics</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Accurate testing and timely insights to support better health decisions.</p>
                       </div>
                     </div>
                   </div>
@@ -103,7 +103,7 @@
             <div class="about-image">
               <img src="assets/img/health/facilities-1.webp" alt="Modern Healthcare Facility" class="img-fluid rounded-3 mb-4">
               <div class="experience-badge">
-                <span class="years">25+</span>
+                <span class="years">10+</span>
                 <span class="text">Years of Excellence</span>
               </div>
             </div>
@@ -112,9 +112,9 @@
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="about-content">
               <h2>Committed to Exceptional Patient Care</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+              <ps>At CareConnect Solutions, we’re dedicated to providing reliable, personalized, and compassionate healthcare that puts your well-being first. Our expert team ensures every patient receives the attention and support they deserve — anytime, anywhere.</p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis. Duis non augue in tortor facilisis tincidunt ac sit amet sapien. Suspendisse id risus non nisi sodales condimentum.</p>
+              <p>We combine advanced medical knowledge with innovative care solutions to help you stay informed, connected, and confident in your health journey.</p>
 
               <div class="row g-4 mt-4">
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
@@ -123,7 +123,7 @@
                       <i class="bi bi-heart-pulse"></i>
                     </div>
                     <h4>Compassionate Care</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>We treat every patient with empathy and respect, ensuring comfort and trust in every interaction.</p>
                   </div>
                 </div>
 
@@ -133,36 +133,14 @@
                       <i class="bi bi-star"></i>
                     </div>
                     <h4>Medical Excellence</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Our experienced professionals deliver top-quality care, guided by the highest medical standards and innovation.</p>
                   </div>
                 </div>
               </div>
 
               <div class="cta-wrapper mt-4">
-                <a href="about.html" class="btn btn-primary">Learn More About Us</a>
-                <a href="#" class="btn btn-outline">Meet Our Team</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5 pt-4 certifications-row" data-aos="fade-up" data-aos-delay="600">
-          <div class="col-12 text-center mb-4">
-            <h4 class="certification-title">Our Accreditations</h4>
-          </div>
-          <div class="col-12">
-            <div class="certifications">
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="700">
-                <img src="assets/img/clients/clients-1.webp" alt="Certification">
-              </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="800">
-                <img src="assets/img/clients/clients-2.webp" alt="Certification">
-              </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="900">
-                <img src="assets/img/clients/clients-3.webp" alt="Certification">
-              </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="1000">
-                <img src="assets/img/clients/clients-4.webp" alt="Certification">
+                <a href="{{route('about')}}" class="btn btn-primary">Learn More About Us</a>
+                <a href="{{route('doctor')}}" class="btn btn-outline">Meet Our Team</a>
               </div>
             </div>
           </div>
@@ -177,7 +155,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Featured Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Explore our key specialties designed to provide expert care, trusted guidance, and complete support for you and your family’s health.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -194,8 +172,8 @@
                   <i class="fas fa-heartbeat"></i>
                 </div>
                 <h3>Cardiology</h3>
-                <p>Comprehensive cardiovascular care with advanced diagnostic techniques and treatment options for heart conditions, ensuring optimal cardiac health for all patients.</p>
-                <a href="department-details.html" class="btn-learn-more">
+                <p>Comprehensive heart care with advanced diagnostics and treatment options to support long-term cardiovascular health and prevention.</p>
+                <a href="{{route('departments')}}" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -213,8 +191,8 @@
                   <i class="fas fa-brain"></i>
                 </div>
                 <h3>Neurology</h3>
-                <p>Expert neurological care specializing in brain and nervous system disorders, providing cutting-edge treatments and compassionate support for neurological conditions.</p>
-                <a href="department-details.html" class="btn-learn-more">
+                <p>Specialized care for brain and nervous system disorders, offering accurate diagnosis, innovative treatments, and compassionate guidance for every patient.</p>
+                <a href="{{route('departments')}}" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -232,8 +210,8 @@
                   <i class="fas fa-bone"></i>
                 </div>
                 <h3>Orthopedics</h3>
-                <p>Advanced musculoskeletal care focusing on bones, joints, and muscles with innovative surgical and non-surgical treatment approaches for mobility restoration.</p>
-                <a href="department-details.html" class="btn-learn-more">
+                <p>Focused on restoring movement and strength through expert care for bones, joints, and muscles using both surgical and non-surgical approaches.</p>
+                <a href="{{route('departments')}}" class="btn-learn-more">
                   <span>Learn More</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -241,7 +219,7 @@
             </div>
           </div><!-- End Department Card -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="department-card">
               <div class="department-image">
                 <img src="assets/img/health/pediatrics-3.webp" alt="Pediatrics Department" class="img-fluid">
@@ -258,7 +236,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="department-card">
@@ -277,7 +255,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="department-card">
@@ -296,7 +274,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div> -->
 
         </div>
 
@@ -309,14 +287,14 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Featured Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p class="text-white">Discover our range of healthcare services designed to make quality medical care accessible, convenient, and centered around your well-being.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
               <div class="service-icon">
                 <i class="fas fa-heartbeat"></i>
@@ -335,7 +313,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
@@ -356,7 +334,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Service Card -->
+          </div> -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
@@ -365,13 +343,13 @@
               </div>
               <div class="service-content">
                 <h3>Orthopedic Surgery</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
+                <p>Advanced orthopedic care for patients with bone, joint, and muscle conditions. Our specialists provide innovative surgical and non-surgical treatments to restore strength, mobility, and quality of life.</p>
                 <ul class="service-features">
                   <li><i class="fas fa-check-circle"></i>Joint Replacement Surgery</li>
-                  <li><i class="fas fa-check-circle"></i>Sports Medicine</li>
+                  <li><i class="fas fa-check-circle"></i>Sports Injury Management</li>
                   <li><i class="fas fa-check-circle"></i>Minimally Invasive Procedures</li>
                 </ul>
-                <a href="services.html" class="service-btn">
+                <a href="{{ route('services') }}" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -386,13 +364,13 @@
               </div>
               <div class="service-content">
                 <h3>Emergency &amp; Trauma Care</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <p>Immediate, expert medical response for critical conditions and accidents. Our emergency team is equipped to handle urgent care needs with precision, compassion, and 24/7 availability.</p>
                 <ul class="service-features">
                   <li><i class="fas fa-check-circle"></i>24/7 Emergency Department</li>
-                  <li><i class="fas fa-check-circle"></i>Level 1 Trauma Center</li>
-                  <li><i class="fas fa-check-circle"></i>Critical Care Units</li>
+                  <li><i class="fas fa-check-circle"></i>Advanced Trauma Care Facilities</li>
+                  <li><i class="fas fa-check-circle"></i>Intensive Care Units</li>
                 </ul>
-                <a href="services.html" class="service-btn">
+                <a href="{{ route('services') }}" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -406,13 +384,12 @@
 
     </section>
 
-    <section id="find-a-doctor" class="find-a-doctor section">
+    <!-- <section id="find-a-doctor" class="find-a-doctor section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Find A Doctor</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -473,7 +450,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
@@ -499,7 +476,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
@@ -525,7 +502,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
@@ -551,7 +528,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
@@ -577,7 +554,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="doctor-card">
@@ -603,13 +580,13 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Doctor Card -->
+          </div>
 
         </div>
 
       </div>
 
-    </section>
+    </section> -->
 
     <section id="call-to-action" class="call-to-action section">
 
@@ -618,11 +595,11 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h2 data-aos="fade-up" data-aos-delay="200">Your Health is Our Priority</h2>
-            <p data-aos="fade-up" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <p data-aos="fade-up" data-aos-delay="250">We’re dedicated to delivering exceptional care and personalized support at every step of your health journey. Our team ensures you receive the attention, compassion, and expertise you deserve — because your well-being always comes first.</p>
 
             <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-              <a href="appointment.html" class="btn-primary">Book Appointment</a>
-              <a href="doctors.html" class="btn-secondary">Find a Doctor</a>
+              <a href="{{route('contact')}}" class="btn-primary">Book Appointment</a>
+              <!-- <a href="doctors.html" class="btn-secondary">Find a Doctor</a> -->
             </div>
           </div>
         </div>
@@ -635,8 +612,8 @@
                 <i class="bi bi-heart-pulse"></i>
               </div>
               <h5>24/7 Emergency Care</h5>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-              <a href="#" class="feature-link">
+              <p>Get immediate medical attention anytime. Our emergency team is always ready to provide quick and reliable care when you need it most.</p>
+              <a href="{{ route('home') }}" class="feature-link">
                 <span>Learn More</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -649,8 +626,8 @@
                 <i class="bi bi-calendar-check"></i>
               </div>
               <h5>Easy Online Booking</h5>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <a href="#" class="feature-link">
+              <p>Schedule appointments effortlessly from the comfort of your home — fast, simple, and convenient.</p>
+              <a href="{{ route('contact') }}" class="feature-link">
                 <span>Book Now</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -663,8 +640,8 @@
                 <i class="bi bi-people"></i>
               </div>
               <h5>Expert Medical Team</h5>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-              <a href="#" class="feature-link">
+              <p>Our experienced doctors and specialists are dedicated to delivering the highest quality care with compassion and precision.</p>
+              <a href="{{ route('doctor') }}" class="feature-link">
                 <span>Meet Our Doctors</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -687,9 +664,9 @@
               </div>
             </div>
             <div class="col-lg-4 text-end">
-              <a href="tel:911" class="emergency-btn">
+              <a href="tel:923040513423" class="emergency-btn">
                 <i class="bi bi-telephone-fill"></i>
-                Call (555) 123-4567
+                Call: +92 304 0513423
               </a>
             </div>
           </div>
@@ -703,7 +680,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Emergency Info</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Immediate care when it matters most — available 24/7 for all emergencies.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -718,12 +695,12 @@
               </div>
               <div class="alert-content">
                 <h3>Medical Emergency?</h3>
-                <p>If you are experiencing a life-threatening emergency, call 911 immediately or go to your nearest emergency room.</p>
+                <p>If you are experiencing a life-threatening emergency, call 1122 immediately or go to your nearest emergency room.</p>
               </div>
               <div class="alert-action">
-                <a href="tel:911" class="btn btn-emergency">
+                <a href="tel:1122" class="btn btn-emergency">
                   <i class="bi bi-telephone-fill"></i>
-                  Call 911
+                  Call 1122
                 </a>
               </div>
             </div><!-- End Emergency Alert -->
@@ -737,19 +714,16 @@
                     <i class="bi bi-hospital"></i>
                   </div>
                   <div class="card-content">
-                    <h4>Emergency Room</h4>
+                    <h4>Nurse Helpline</h4>
                     <p class="contact-info">
                       <i class="bi bi-telephone"></i>
-                      <span>+1 (555) 123-4567</span>
+                      <span>+92 311 5221899</span>
                     </p>
-                    <p class="address">
-                      <i class="bi bi-geo-alt"></i>
-                      1245 Healthcare Blvd, Medical City, CA 90210
-                    </p>
-                    <p class="hours">Open 24/7</p>
+                    <p class="description">24/7 medical advice and guidance</p>
+                    <p class="hours">Available 24/7</p>
                   </div>
                   <div class="card-action">
-                    <a href="tel:+15551234567" class="btn btn-contact">Call Now</a>
+                    <a href="tel:+15554567890" class="btn btn-contact">Call Now</a>
                   </div>
                 </div>
               </div><!-- End Emergency Room Card -->
@@ -763,20 +737,20 @@
                     <h4>Urgent Care</h4>
                     <p class="contact-info">
                       <i class="bi bi-telephone"></i>
-                      <span>+1 (555) 987-6543</span>
+                      <span>+92 304 0513423</span>
                     </p>
                     <p class="address">
                       <i class="bi bi-geo-alt"></i>
-                      892 Wellness Ave, Health District, CA 90211
+                      19, The ArK, I8 Markaz, Islamabad
                     </p>
                     <p class="hours">Mon-Sun: 7:00 AM - 10:00 PM</p>
                   </div>
                   <div class="card-action">
-                    <a href="tel:+15559876543" class="btn btn-contact">Call Now</a>
+                    <a href="tel:+923040513423" class="btn btn-contact">Call Now</a>
                   </div>
                 </div>
               </div><!-- End Urgent Care Card -->
-
+<!-- 
               <div class="col-md-6 mb-4">
                 <div class="contact-card">
                   <div class="card-icon">
@@ -795,27 +769,9 @@
                     <a href="tel:+15554567890" class="btn btn-contact">Call Now</a>
                   </div>
                 </div>
-              </div><!-- End Nurse Helpline Card -->
+              </div> -->
+              <!-- End Nurse Helpline Card -->
 
-              <div class="col-md-6 mb-4">
-                <div class="contact-card">
-                  <div class="card-icon">
-                    <i class="bi bi-heart-pulse"></i>
-                  </div>
-                  <div class="card-content">
-                    <h4>Poison Control</h4>
-                    <p class="contact-info">
-                      <i class="bi bi-telephone"></i>
-                      <span>1-800-222-1222</span>
-                    </p>
-                    <p class="description">National poison control hotline</p>
-                    <p class="hours">Available 24/7</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="tel:18002221222" class="btn btn-contact">Call Now</a>
-                  </div>
-                </div>
-              </div><!-- End Poison Control Card -->
 
             </div><!-- End Emergency Contacts -->
 
@@ -823,28 +779,22 @@
             <div class="quick-actions" data-aos="fade-up" data-aos-delay="300">
               <h4>Quick Actions</h4>
               <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                  <a href="#" class="action-link">
+                <div class="col-sm-6 col-lg-4">
+                  <a href="https://www.google.com/maps?q=I-8+Markaz+Islamabad" target="_blank" rel="noopener noreferrer" class="action-link">
                     <i class="bi bi-geo-alt-fill"></i>
                     <span>Get Directions</span>
                   </a>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                  <a href="#" class="action-link">
+                <div class="col-sm-6 col-lg-4">
+                  <a href="{{route('contact')}}" class="action-link">
                     <i class="bi bi-calendar-check"></i>
                     <span>Book Appointment</span>
                   </a>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                  <a href="#" class="action-link">
+                <div class="col-sm-6 col-lg-4">
+                  <a href="{{route('doctor')}}" class="action-link">
                     <i class="bi bi-person-badge"></i>
                     <span>Find a Doctor</span>
-                  </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                  <a href="#" class="action-link">
-                    <i class="bi bi-chat-dots"></i>
-                    <span>Live Chat</span>
                   </a>
                 </div>
               </div>
@@ -859,7 +809,6 @@
                     <li><i class="bi bi-check-circle"></i> Chest pain or difficulty breathing</li>
                     <li><i class="bi bi-check-circle"></i> Severe allergic reactions</li>
                     <li><i class="bi bi-check-circle"></i> Major trauma or injuries</li>
-                    <li><i class="bi bi-check-circle"></i> Signs of stroke or heart attack</li>
                   </ul>
                 </div>
                 <div class="col-md-6">
@@ -867,7 +816,6 @@
                     <li><i class="bi bi-check-circle"></i> Severe burns or bleeding</li>
                     <li><i class="bi bi-check-circle"></i> Loss of consciousness</li>
                     <li><i class="bi bi-check-circle"></i> Severe abdominal pain</li>
-                    <li><i class="bi bi-check-circle"></i> High fever with confusion</li>
                   </ul>
                 </div>
               </div>
