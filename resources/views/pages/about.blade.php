@@ -10,7 +10,7 @@
         <div class="breadcrumbs">
             <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
+                <li class="breadcrumb-item"><a href="{{route('home')}}"><i class="bi bi-house"></i> Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Category</a></li>
                 <li class="breadcrumb-item active current">About</li>
             </ol>
@@ -18,8 +18,8 @@
         </div>
 
         <div class="title-wrapper">
-            <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <h1>About Us</h1>
+            <p>We are dedicated to making quality healthcare accessible, reliable, and connected for every individual and family.</p>
         </div>
         </div><!-- End Page Title -->
 
@@ -33,10 +33,10 @@
                 <div class="content">
                 <h2>Committed to Excellence in Healthcare</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    At CareConnect Solutions, we are dedicated to delivering exceptional medical care with compassion, integrity, and innovation. Our commitment is to provide every patient with personalized attention and reliable healthcare support — ensuring peace of mind at every stage of their wellness journey.
                 </p>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis.
+                    We combine years of medical expertise with modern care technology to make healthcare more accessible, seamless, and patient-focused. From preventive care to advanced medical guidance, our mission is to help individuals and families live healthier, happier lives.
                 </p>
 
                 <div class="stats-container" data-aos="fade-up" data-aos-delay="200">
@@ -44,7 +44,7 @@
                     <div class="col-sm-6 col-lg-12 col-xl-6">
                         <div class="stat-item">
                         <div class="stat-number">
-                            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>+
+                            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>+
                         </div>
                         <div class="stat-label">Years of Experience</div>
                         </div>
@@ -52,7 +52,7 @@
                     <div class="col-sm-6 col-lg-12 col-xl-6">
                         <div class="stat-item">
                         <div class="stat-number">
-                            <span data-purecounter-start="0" data-purecounter-end="50000" data-purecounter-duration="2" class="purecounter"></span>+
+                            <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="2" class="purecounter"></span>+
                         </div>
                         <div class="stat-label">Patients Treated</div>
                         </div>
@@ -61,8 +61,8 @@
                 </div>
 
                 <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-                    <a href="#" class="btn-primary">Meet Our Doctors</a>
-                    <a href="#" class="btn-secondary">View Our Services</a>
+                    <a href="{{route('doctor')}}" class="btn-primary">Meet Our Doctors</a>
+                    <a href="{{route('services')}}" class="btn-secondary">View Our Services</a>
                 </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             </div>
             </div>
 
-            <div class="certifications-section" data-aos="fade-up" data-aos-delay="400">
+            <!-- <div class="certifications-section" data-aos="fade-up" data-aos-delay="400">
             <div class="row">
                 <div class="col-lg-12">
                 <div class="section-header">
@@ -113,7 +113,7 @@
                 </div>
                 </div>
             </div>
-            </div>
+            </div> -->
 
         </div>
 
