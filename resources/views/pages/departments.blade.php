@@ -8,7 +8,7 @@
         <div class="breadcrumbs">
             <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
+                <li class="breadcrumb-item"><a href="{{route('home')}}"><i class="bi bi-house"></i> Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Category</a></li>
                 <li class="breadcrumb-item active current">Departments</li>
             </ol>
@@ -17,7 +17,7 @@
 
         <div class="title-wrapper">
             <h1>Departments</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <p>From expert consultations to advanced treatments, our medical departments offer complete, technology-enabled care for your well-being.</p>
         </div>
         </div>
         <section id="departments" class="departments section">
@@ -40,19 +40,19 @@
                     <img src="assets/img/health/cardiology-2.webp" alt="Cardiology" class="img-fluid" loading="lazy">
                     <div class="department-stats">
                     <div class="stat-item">
-                        <span class="stat-number">500+</span>
+                        <span class="stat-number">200+</span>
                         <span class="stat-label">Procedures</span>
                     </div>
                     </div>
                 </div>
                 <div class="department-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <p>Comprehensive heart and vascular care using advanced diagnostics and modern treatments to protect and improve long-term cardiac health.</p>
                     <ul class="department-highlights">
                     <li><i class="bi bi-check2"></i> Advanced Cardiac Surgery</li>
-                    <li><i class="bi bi-check2"></i> Interventional Cardiology</li>
-                    <li><i class="bi bi-check2"></i> Heart Rhythm Management</li>
+                    <li><i class="bi bi-check2"></i> Interventional Heart Procedures</li>
+                    <li><i class="bi bi-check2"></i> Heart Rhythm & Electrophysiology Care</li>
                     </ul>
-                    <a href="department-details.html" class="department-link">Learn More</a>
+                    <!-- <a href="department-details.html" class="department-link">Learn More</a> -->
                 </div>
                 </div>
 
@@ -74,13 +74,13 @@
                     </div>
                 </div>
                 <div class="department-content">
-                    <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure.</p>
+                    <p>Advanced skin care and treatment for medical and cosmetic concerns, ensuring healthy, radiant skin with modern dermatology techniques.</p>
                     <ul class="department-highlights">
-                    <li><i class="bi bi-check2"></i> Cosmetic Dermatology</li>
-                    <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
-                    <li><i class="bi bi-check2"></i> Laser Therapy</li>
+                    <li><i class="bi bi-check2"></i> Cosmetic Dermatology & Skin Aesthetics</li>
+                    <li><i class="bi bi-check2"></i> Skin Cancer Screening & Treatment</li>
+                    <li><i class="bi bi-check2"></i> Laser & Advanced Skin Therapy</li>
                     </ul>
-                    <a href="department-details.html" class="department-link">Learn More</a>
+                    <!-- <a href="department-details.html" class="department-link">Learn More</a> -->
                 </div>
                 </div>
             </div><!-- End First Column -->
@@ -115,16 +115,16 @@
                     </div>
                 </div>
                 <div class="featured-content">
-                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis.</p>
+                    <p>Our neurology team specializes in treating brain, spine, and nervous system conditions with precision, compassion, and advanced medical technology. We deliver accurate evaluations and personalized treatment plans to help patients maintain optimal neurological function.</p>
                     <div class="featured-services">
-                    <div class="service-tag">Brain Imaging</div>
-                    <div class="service-tag">Epilepsy Care</div>
-                    <div class="service-tag">Stroke Treatment</div>
-                    <div class="service-tag">Memory Disorders</div>
+                    <div class="service-tag">Advanced Brain Imaging</div>
+                    <div class="service-tag">Epilepsy & Seizure Care</div>
+                    <div class="service-tag">Stroke Management & Recovery</div>
+                    <div class="service-tag">Memory & Cognitive Disorder Treatment</div>
                     </div>
-                    <a href="department-details.html" class="featured-btn">
-                    Explore Department
-                    <i class="bi bi-arrow-right-circle"></i>
+                    <a href="{{route('contact')}}" class="featured-btn">
+                    Book an Appointment
+                        <i class="bi bi-arrow-right-circle"></i>
                     </a>
                 </div>
                 </div>
@@ -144,19 +144,19 @@
                     <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics" class="img-fluid" loading="lazy">
                     <div class="department-stats">
                     <div class="stat-item">
-                        <span class="stat-number">800+</span>
+                        <span class="stat-number">750+</span>
                         <span class="stat-label">Surgeries</span>
                     </div>
                     </div>
                 </div>
                 <div class="department-content">
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.</p>
+                    <p>Specialized treatment for bones, joints, and spine to restore movement and relieve pain through surgical and non-surgical care.</p>
                     <ul class="department-highlights">
-                    <li><i class="bi bi-check2"></i> Joint Replacement</li>
-                    <li><i class="bi bi-check2"></i> Sports Medicine</li>
-                    <li><i class="bi bi-check2"></i> Spine Surgery</li>
+                    <li><i class="bi bi-check2"></i> Joint Replacement & Reconstruction</li>
+                    <li><i class="bi bi-check2"></i> Sports Injury Treatment</li>
+                    <li><i class="bi bi-check2"></i> Spine & Musculoskeletal Care</li>
                     </ul>
-                    <a href="department-details.html" class="department-link">Learn More</a>
+                    <!-- <a href="department-details.html" class="department-link">Learn More</a> -->
                 </div>
                 </div>
 
@@ -172,19 +172,19 @@
                     <img src="assets/img/health/pediatrics-2.webp" alt="Pediatrics" class="img-fluid" loading="lazy">
                     <div class="department-stats">
                     <div class="stat-item">
-                        <span class="stat-number">2000+</span>
+                        <span class="stat-number">1000+</span>
                         <span class="stat-label">Young Patients</span>
                     </div>
                     </div>
                 </div>
                 <div class="department-content">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque.</p>
+                    <p>Compassionate healthcare for children from infancy to adolescence, supporting healthy growth, development, and overall well-being.</p>
                     <ul class="department-highlights">
-                    <li><i class="bi bi-check2"></i> Newborn Care</li>
-                    <li><i class="bi bi-check2"></i> Child Development</li>
-                    <li><i class="bi bi-check2"></i> Vaccination Programs</li>
+                    <li><i class="bi bi-check2"></i> Newborn & Infant Care</li>
+                    <li><i class="bi bi-check2"></i> Childhood Growth & Development Support</li>
+                    <li><i class="bi bi-check2"></i> Wellness Checkups & Immunization Guidance</li>
                     </ul>
-                    <a href="department-details.html" class="department-link">Learn More</a>
+                    <!-- <a href="department-details.html" class="department-link">Learn More</a> -->
                 </div>
                 </div>
             </div><!-- End Third Column -->
