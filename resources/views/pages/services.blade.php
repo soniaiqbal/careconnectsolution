@@ -20,7 +20,7 @@
 
         <div class="title-wrapper">
             <h1>Services</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <p>Experience expert medical care tailored to your lifestyle and needs. From routine wellness to specialist support, we make quality healthcare simple, personal, and always within reach.</p>
         </div>
         </div><!-- End Page Title -->
 
@@ -56,16 +56,12 @@
                         </div>
                         <div class="service-details">
                         <h5>General Consultation</h5>
-                        <p>Cupiditate placeat facere. Delectus quisquam et consequatur laborum sunt consectetur.</p>
+                        <p>Personalized medical guidance for everyday health concerns, routine checkups, and preventive wellness support.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Comprehensive Health Assessment</li>
-                            <li><i class="fa fa-check-circle"></i>Preventive Care Planning</li>
-                            <li><i class="fa fa-check-circle"></i>Health Monitoring</li>
+                            <li><i class="fa fa-check-circle"></i>Complete Health Evaluation</li>
+                            <li><i class="fa fa-check-circle"></i>Preventive Care & Wellness Plans</li>
+                            <li><i class="fa fa-check-circle"></i>Continuous Health Follow-up</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -77,16 +73,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Vaccination Services</h5>
-                        <p>Voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut.</p>
+                        <p>Protective immunization services designed to prevent infections and support long-term community health.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Adult Immunizations</li>
-                            <li><i class="fa fa-check-circle"></i>Travel Vaccines</li>
-                            <li><i class="fa fa-check-circle"></i>Flu Shots</li>
+                            <li><i class="fa fa-check-circle"></i>Adult & Routine Vaccines</li>
+                            <li><i class="fa fa-check-circle"></i>Travel & Seasonal Immunization</li>
+                            <li><i class="fa fa-check-circle"></i>Flu & Preventive Shots</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -98,16 +90,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Maternal Health</h5>
-                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore.</p>
+                        <p>Comprehensive care for expecting and new mothers, ensuring a healthy pregnancy, safe delivery, and confident postpartum journey.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Prenatal Care</li>
-                            <li><i class="fa fa-check-circle"></i>Delivery Support</li>
-                            <li><i class="fa fa-check-circle"></i>Postnatal Care</li>
+                            <li><i class="fa fa-check-circle"></i>Prenatal Care & Monitoring</li>
+                            <li><i class="fa fa-check-circle"></i>Labor & Delivery Support</li>
+                            <li><i class="fa fa-check-circle"></i>Postnatal & Newborn Guidance</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -119,16 +107,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Family Medicine</h5>
-                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
+                        <p>Comprehensive care for individuals and families, supporting long-term wellness and managing everyday health needs at every stage of life.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>All-Age Care</li>
-                            <li><i class="fa fa-check-circle"></i>Chronic Disease Management</li>
-                            <li><i class="fa fa-check-circle"></i>Wellness Programs</li>
+                            <li><i class="fa fa-check-circle"></i>Care for All Age Groups</li>
+                            <li><i class="fa fa-check-circle"></i>Chronic Condition Management</li>
+                            <li><i class="fa fa-check-circle"></i>Preventive & Wellness Plans</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -144,20 +128,15 @@
                         </div>
                         <div class="service-details">
                         <h5>Cardiology</h5>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <p>Expert care for heart and vascular conditions, offering advanced diagnostics, personalized treatment plans, and long-term cardiac support.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Heart Disease Treatment</li>
-                            <li><i class="fa fa-check-circle"></i>Cardiac Surgery</li>
-                            <li><i class="fa fa-check-circle"></i>Rehabilitation Programs</li>
+                            <li><i class="fa fa-check-circle"></i>Heart Disease Management</li>
+                            <li><i class="fa fa-check-circle"></i>Cardiac Procedures & Surgery</li>
+                            <li><i class="fa fa-check-circle"></i>Recovery & Rehabilitation Care</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
-
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
@@ -165,16 +144,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Neurology</h5>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur.</p>
+                        <p>Specialized care for brain and nervous system disorders, providing accurate diagnosis, advanced treatment options, and dedicated support.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Neurological Assessment</li>
-                            <li><i class="fa fa-check-circle"></i>Stroke Treatment</li>
-                            <li><i class="fa fa-check-circle"></i>Memory Care</li>
+                            <li><i class="fa fa-check-circle"></i>Neurological Evaluation</li>
+                            <li><i class="fa fa-check-circle"></i>Stroke & Seizure Management</li>
+                            <li><i class="fa fa-check-circle"></i>Memory & Cognitive Care</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -186,16 +161,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Orthopedics</h5>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+                        <p>Expert care for bone, joint, and muscle conditions, offering advanced treatments to restore strength, mobility, and comfort.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Joint Replacement</li>
-                            <li><i class="fa fa-check-circle"></i>Sports Medicine</li>
-                            <li><i class="fa fa-check-circle"></i>Pain Management</li>
+                            <li><i class="fa fa-check-circle"></i>Joint Replacement & Repair</li>
+                            <li><i class="fa fa-check-circle"></i>Sports Injury Treatment</li>
+                            <li><i class="fa fa-check-circle"></i>Comprehensive Pain Management</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -207,16 +178,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Oncology</h5>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                        <p>Our oncology department is dedicated to delivering compassionate and comprehensive cancer care using advanced medical treatments and personalized support.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Cancer Treatment</li>
-                            <li><i class="fa fa-check-circle"></i>Chemotherapy</li>
-                            <li><i class="fa fa-check-circle"></i>Support Services</li>
+                            <li><i class="fa fa-check-circle"></i>Advanced Cancer Diagnosis & Treatment</li>
+                            <li><i class="fa fa-check-circle"></i>Chemotherapy & Targeted Therapies</li>
+                            <li><i class="fa fa-check-circle"></i>Patient Support & Counseling Services</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -232,16 +199,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Laboratory Testing</h5>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam.</p>
+                        <p>Our state-of-the-art laboratory provides accurate and timely diagnostic testing to support precise medical evaluation and treatment planning.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Blood Analysis</li>
-                            <li><i class="fa fa-check-circle"></i>Pathology Services</li>
-                            <li><i class="fa fa-check-circle"></i>Quick Results</li>
+                            <li><i class="fa fa-check-circle"></i>Comprehensive Blood Testing</li>
+                            <li><i class="fa fa-check-circle"></i>Advanced Pathology & Diagnostics</li>
+                            <li><i class="fa fa-check-circle"></i>Fast & Reliable Results</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -253,16 +216,12 @@
                         </div>
                         <div class="service-details">
                         <h5>Diagnostic Imaging</h5>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p>Our advanced imaging services provide precise and detailed medical scans to assist in accurate diagnosis and effective treatment planning.</p>
                         <ul class="service-benefits">
                             <li><i class="fa fa-check-circle"></i>MRI Scans</li>
                             <li><i class="fa fa-check-circle"></i>CT Imaging</li>
-                            <li><i class="fa fa-check-circle"></i>Ultrasound</li>
+                            <li><i class="fa fa-check-circle"></i>Ultrasound Services</li>
                         </ul>
-                        <a href="service-details.html" class="service-link">
-                            <span>Learn More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
                         </div>
                     </div>
                     </div>
@@ -278,12 +237,12 @@
                         </div>
                         <div class="service-details">
                         <h5>24/7 Emergency Care</h5>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Our emergency department is fully equipped to provide immediate and lifesaving medical assistance at any time of day or night, ensuring critical care when you need it most.</p>
                         <ul class="service-benefits">
                             <li><i class="fa fa-check-circle"></i>Round-the-Clock Availability</li>
-                            <li><i class="fa fa-check-circle"></i>Trauma Center</li>
-                            <li><i class="fa fa-check-circle"></i>Critical Care Unit</li>
-                            <li><i class="fa fa-check-circle"></i>Emergency Surgery</li>
+                            <li><i class="fa fa-check-circle"></i>Advanced Trauma Center</li>
+                            <li><i class="fa fa-check-circle"></i>Dedicated Critical Care Unit</li>
+                            <li><i class="fa fa-check-circle"></i>Emergency Surgical Services</li>
                         </ul>
                         <div class="emergency-actions">
                             <a href="tel:911" class="btn-emergency">
@@ -310,10 +269,9 @@
                 <div class="cta-content">
                     <i class="fa fa-calendar-check"></i>
                     <h3>Ready to Schedule Your Appointment?</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.</p>
+                    <p>Take the first step toward better health and wellness. Book your appointment today and receive expert, compassionate care from our dedicated medical team. We look forward to supporting you on your healthcare journey.</p>
                     <div class="cta-buttons">
-                    <a href="appointment.html" class="btn-book">Book Now</a>
-                    <a href="contact.html" class="btn-contact">Contact Us</a>
+                    <a href="{{route('contact')}}" class="btn-contact">Contact Us</a>
                     </div>
                 </div>
                 </div>
