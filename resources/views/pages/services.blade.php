@@ -38,9 +38,6 @@
                 <button class="nav-link" id="services-specialty-tab" data-bs-toggle="tab" data-bs-target="#services-specialty" type="button" role="tab">Specialty Care</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                <button class="nav-link" id="services-diagnostics-tab" data-bs-toggle="tab" data-bs-target="#services-diagnostics" type="button" role="tab">Diagnostics</button>
-                </li>
-                <li class="nav-item" role="presentation">
                 <button class="nav-link" id="services-emergency-tab" data-bs-toggle="tab" data-bs-target="#services-emergency" type="button" role="tab">Emergency</button>
                 </li>
             </ul>
@@ -52,15 +49,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-stethoscope"></i>
+                        <i class="fa fa-lungs"></i>
                         </div>
                         <div class="service-details">
-                        <h5>General Consultation</h5>
-                        <p>Personalized medical guidance for everyday health concerns, routine checkups, and preventive wellness support.</p>
+                        <h5>Respiratory Assessment</h5>
+                        <p>Comprehensive evaluation to diagnose breathing difficulties and plan effective treatment strategies.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Complete Health Evaluation</li>
-                            <li><i class="fa fa-check-circle"></i>Preventive Care & Wellness Plans</li>
-                            <li><i class="fa fa-check-circle"></i>Continuous Health Follow-up</li>
+                            <li><i class="fa fa-check-circle"></i>Complete Respiratory Examination</li>
+                            <li><i class="fa fa-check-circle"></i>Breathing & Lung Function Assessment</li>
+                            <li><i class="fa fa-check-circle"></i>Personalized Treatment Plan</li>
                         </ul>
                         </div>
                     </div>
@@ -69,15 +66,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-syringe"></i>
+                        <i class="fa fa-wind"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Vaccination Services</h5>
-                        <p>Protective immunization services designed to prevent infections and support long-term community health.</p>
+                        <h5>Oxygen Therapy</h5>
+                        <p>Safe and effective administration of oxygen therapy for patients with respiratory distress or chronic lung conditions.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Adult & Routine Vaccines</li>
-                            <li><i class="fa fa-check-circle"></i>Travel & Seasonal Immunization</li>
-                            <li><i class="fa fa-check-circle"></i>Flu & Preventive Shots</li>
+                            <li><i class="fa fa-check-circle"></i>Home Oxygen Setup & Monitoring</li>
+                            <li><i class="fa fa-check-circle"></i>Pulse Oximetry Evaluation</li>
+                            <li><i class="fa fa-check-circle"></i>Emergency Oxygen Support</li>
                         </ul>
                         </div>
                     </div>
@@ -89,12 +86,12 @@
                         <i class="fa fa-baby"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Maternal Health</h5>
-                        <p>Comprehensive care for expecting and new mothers, ensuring a healthy pregnancy, safe delivery, and confident postpartum journey.</p>
+                        <h5>Non-Invasive Ventilation (BiPAP & CPAP)</h5>
+                        <p>Professional setup and monitoring of BiPAP & CPAP therapy to support breathing and improve oxygen levels.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Prenatal Care & Monitoring</li>
-                            <li><i class="fa fa-check-circle"></i>Labor & Delivery Support</li>
-                            <li><i class="fa fa-check-circle"></i>Postnatal & Newborn Guidance</li>
+                            <li><i class="fa fa-check-circle"></i>BiPAP & CPAP Machine Setup</li>
+                            <li><i class="fa fa-check-circle"></i>Mask Fitting & Adjustment</li>
+                            <li><i class="fa fa-check-circle"></i>Therapy Monitoring & Education</li>
                         </ul>
                         </div>
                     </div>
@@ -103,15 +100,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-user-md"></i>
+                        <i class="fa fa-pump-medical"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Family Medicine</h5>
-                        <p>Comprehensive care for individuals and families, supporting long-term wellness and managing everyday health needs at every stage of life.</p>
+                        <h5>Suctioning & Airway Clearance</h5>
+                        <p>Professional suctioning and airway clearance to assist patients with mucus buildup or breathing difficulty.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Care for All Age Groups</li>
-                            <li><i class="fa fa-check-circle"></i>Chronic Condition Management</li>
-                            <li><i class="fa fa-check-circle"></i>Preventive & Wellness Plans</li>
+                            <li><i class="fa fa-check-circle"></i>Chest Physiotherapy (CPT)</li>
+                            <li><i class="fa fa-check-circle"></i>Oral & Nasal Suctioning</li>
+                            <li><i class="fa fa-check-circle"></i>Deep Breathing & Incentive Spirometry</li>
                         </ul>
                         </div>
                     </div>
@@ -124,15 +121,15 @@
                     <div class="col-lg-6">
                     <div class="service-item featured">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-heartbeat"></i>
+                        <i class="fa fa-procedures"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Cardiology</h5>
-                        <p>Expert care for heart and vascular conditions, offering advanced diagnostics, personalized treatment plans, and long-term cardiac support.</p>
+                        <h5>Ventilator Management</h5>
+                        <p>Skilled management of mechanical ventilation for patients requiring full respiratory support.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Heart Disease Management</li>
-                            <li><i class="fa fa-check-circle"></i>Cardiac Procedures & Surgery</li>
-                            <li><i class="fa fa-check-circle"></i>Recovery & Rehabilitation Care</li>
+                            <li><i class="fa fa-check-circle"></i>Ventilator Setup & Operation</li>
+                            <li><i class="fa fa-check-circle"></i>Monitoring & Adjustments</li>
+                            <li><i class="fa fa-check-circle"></i>Airway Safety & Care</li>
                         </ul>
                         </div>
                     </div>
@@ -140,32 +137,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-brain"></i>
+                        <i class="fa fa-procedures"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Neurology</h5>
-                        <p>Specialized care for brain and nervous system disorders, providing accurate diagnosis, advanced treatment options, and dedicated support.</p>
+                        <h5>Tracheostomy Care</h5>
+                        <p>Professional tracheostomy tube care, cleaning, and airway maintenance for comfort and safety.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Neurological Evaluation</li>
-                            <li><i class="fa fa-check-circle"></i>Stroke & Seizure Management</li>
-                            <li><i class="fa fa-check-circle"></i>Memory & Cognitive Care</li>
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                    <div class="service-item">
-                        <div class="service-icon-wrapper">
-                        <i class="fa fa-bone"></i>
-                        </div>
-                        <div class="service-details">
-                        <h5>Orthopedics</h5>
-                        <p>Expert care for bone, joint, and muscle conditions, offering advanced treatments to restore strength, mobility, and comfort.</p>
-                        <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Joint Replacement & Repair</li>
-                            <li><i class="fa fa-check-circle"></i>Sports Injury Treatment</li>
-                            <li><i class="fa fa-check-circle"></i>Comprehensive Pain Management</li>
+                            <li><i class="fa fa-check-circle"></i>Tube Cleaning & Sanitization</li>
+                            <li><i class="fa fa-check-circle"></i>Airway Suction & Humidification</li>
+                            <li><i class="fa fa-check-circle"></i>Patient & Family Training</li>
                         </ul>
                         </div>
                     </div>
@@ -174,36 +154,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-user-nurse"></i>
+                        <i class="fa fa-vials"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Oncology</h5>
-                        <p>Our oncology department is dedicated to delivering compassionate and comprehensive cancer care using advanced medical treatments and personalized support.</p>
+                        <h5>ABG Testing & Interpretation</h5>
+                        <p>Accurate arterial blood gas sampling and expert interpretation for respiratory and metabolic conditions.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Advanced Cancer Diagnosis & Treatment</li>
-                            <li><i class="fa fa-check-circle"></i>Chemotherapy & Targeted Therapies</li>
-                            <li><i class="fa fa-check-circle"></i>Patient Support & Counseling Services</li>
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <div class="tab-pane fade" id="services-diagnostics" role="tabpanel">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                    <div class="service-item">
-                        <div class="service-icon-wrapper">
-                        <i class="fa fa-vial"></i>
-                        </div>
-                        <div class="service-details">
-                        <h5>Laboratory Testing</h5>
-                        <p>Our state-of-the-art laboratory provides accurate and timely diagnostic testing to support precise medical evaluation and treatment planning.</p>
-                        <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>Comprehensive Blood Testing</li>
-                            <li><i class="fa fa-check-circle"></i>Advanced Pathology & Diagnostics</li>
-                            <li><i class="fa fa-check-circle"></i>Fast & Reliable Results</li>
+                            <li><i class="fa fa-check-circle"></i>Arterial Blood Sampling</li>
+                            <li><i class="fa fa-check-circle"></i>Comprehensive ABG Report</li>
+                            <li><i class="fa fa-check-circle"></i>Therapy Recommendations</li>
                         </ul>
                         </div>
                     </div>
@@ -212,15 +171,15 @@
                     <div class="col-lg-6">
                     <div class="service-item">
                         <div class="service-icon-wrapper">
-                        <i class="fa fa-x-ray"></i>
+                        <i class="fa fa-ambulance"></i>
                         </div>
                         <div class="service-details">
-                        <h5>Diagnostic Imaging</h5>
-                        <p>Our advanced imaging services provide precise and detailed medical scans to assist in accurate diagnosis and effective treatment planning.</p>
+                         <h5>Emergency Respiratory Support</h5>
+                        <p>Immediate response and urgent respiratory intervention for breathing difficulties and critical care needs.</p>
                         <ul class="service-benefits">
-                            <li><i class="fa fa-check-circle"></i>MRI Scans</li>
-                            <li><i class="fa fa-check-circle"></i>CT Imaging</li>
-                            <li><i class="fa fa-check-circle"></i>Ultrasound Services</li>
+                            <li><i class="fa fa-check-circle"></i>Rapid Oxygen & Airway Support</li>
+                            <li><i class="fa fa-check-circle"></i>Suction & Breathing Assistance</li>
+                            <li><i class="fa fa-check-circle"></i>BiPAP/CPAP Emergency Setup</li>
                         </ul>
                         </div>
                     </div>

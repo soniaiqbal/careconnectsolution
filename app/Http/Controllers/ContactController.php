@@ -37,7 +37,7 @@ class ContactController extends Controller
             'phone'       => $enquiry->phone,
             'body' => $enquiry->message,
         ], function ($mail) use ($enquiry) {
-            $mail->from($enquiry->email, $enquiry->name);
+            $mail->from('info@careconnectsolution.org', 'CareConnect Solution');
             $mail->to('info@careconnectsolution.org')
                 ->subject('New Enquiry: ' . ($enquiry->subject ?? 'No Subject'));
         });
