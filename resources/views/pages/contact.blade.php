@@ -17,8 +17,7 @@
       </div>
 
       <div class="title-wrapper">
-        <h1>Contact</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <h1>Contact Us</h1>
       </div>
     </div>
     <section id="contact" class="contact section">
@@ -38,7 +37,7 @@
                 </div>
                 <div class="card-content">
                   <h4>Our Location</h4>
-                  <p>4952 Hilltop Dr, Anytown, CA 90210</p>
+                  <p>19, The ArK, I8 Markaz, Islamabad</p>
                 </div>
               </div>
 
@@ -48,7 +47,7 @@
                 </div>
                 <div class="card-content">
                   <h4>Email Us</h4>
-                  <p>info@example.com</p>
+                  <p>info@careconnectsolution.org</p>
                 </div>
               </div>
 
@@ -58,11 +57,11 @@
                 </div>
                 <div class="card-content">
                   <h4>Call Us</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <p>+923040513423 | +923115221899</p>
                 </div>
               </div>
 
-              <div class="info-card">
+              <!-- <div class="info-card">
                 <div class="icon-container">
                   <i class="bi bi-clock-history"></i>
                 </div>
@@ -70,10 +69,10 @@
                   <h4>Working Hours</h4>
                   <p>Monday-Saturday: 9AM - 7PM</p>
                 </div>
-              </div>
+              </div> -->
             </div>
 
-            <div class="social-links-panel">
+            <!-- <div class="social-links-panel">
               <h5>Follow Us</h5>
               <div class="social-icons">
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -82,19 +81,26 @@
                 <a href="#"><i class="bi bi-linkedin"></i></a>
                 <a href="#"><i class="bi bi-youtube"></i></a>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <div class="contact-form-panel">
             <div class="map-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.6073980289125!2d73.07218797511955!3d33.66733327330437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df950065ca8807%3A0x34ee8e1e179c562a!2sTHE%20ARK%20ISLAMABAD!5e0!3m2!1sen!2s!4v1762262739355!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="form-container">
               <h3>Send Us a Message</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mauris hendrerit faucibus imperdiet nec eget felis.</p>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mauris hendrerit faucibus imperdiet nec eget felis.</p> -->
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
+                @if(session('success'))
+                    <div class="alert alert-success alert-dismissible fade show mt-0" role="alert" id="success-alert">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                <form action="{{ route('contact.send') }}" method="POST" class="php-email-form">
+                @csrf
                 <div class="form-floating mb-3">
                   <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required="">
                   <label for="nameInput">Full Name</label>
@@ -103,6 +109,11 @@
                 <div class="form-floating mb-3">
                   <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required="">
                   <label for="emailInput">Email Address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="phoneInput" name="phone" placeholder="Mobile Number" required="">
+                  <label for="nameInput">Mobile Number</label>
                 </div>
 
                 <div class="form-floating mb-3">
@@ -115,11 +126,11 @@
                   <label for="messageInput">Your Message</label>
                 </div>
 
-                <div class="my-3">
+                <!-- <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+                </div> -->
 
                 <div class="d-grid">
                   <button type="submit" class="btn-submit">Send Message <i class="bi bi-send-fill ms-2"></i></button>

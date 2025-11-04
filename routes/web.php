@@ -14,3 +14,4 @@ Route::get('services', [ServicesController::class, 'index'])->name('services');
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::get('departments', [DepartmentController::class, 'index'])->name('departments');
 Route::get('doctor', [DoctorController::class, 'index'])->name('doctor');
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
