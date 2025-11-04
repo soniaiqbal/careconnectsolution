@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-                    <a href="{{route('doctor')}}" class="btn-primary">Meet Our Doctors</a>
+                    <a href="{{route('team')}}" class="btn-primary">Meet Our Team</a>
                     <a href="{{route('services')}}" class="btn-secondary">View Our Services</a>
                 </div>
                 </div>

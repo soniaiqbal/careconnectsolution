@@ -19,8 +19,9 @@
         </div>
 
         <div class="title-wrapper">
-            <h1>Doctors</h1>
-            <p>Our team of experienced and compassionate doctors is committed to providing exceptional medical care with a patient-first approach. With expertise across multiple specialties, we ensure every patient receives personalized attention and the highest standard of treatment.</p>
+            <h1>Team</h1>
+            <p>At CareConnect Solutions, our team is dedicated to delivering expert respiratory care with compassion, professionalism, and a patient-centered approach. Led by a qualified Respiratory Therapist, we work closely with skilled healthcare support staff to ensure every patient receives personalized care and specialized breathing support.
+            Together, we are committed to improving lung health, enhancing quality of life, and providing reliable respiratory services in home-care and clinical settings.</p>
         </div>
         </div><!-- End Page Title -->
 

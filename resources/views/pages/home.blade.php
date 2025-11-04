@@ -140,7 +140,7 @@
 
               <div class="cta-wrapper mt-4">
                 <a href="{{route('about')}}" class="btn btn-primary">Learn More About Us</a>
-                <a href="{{route('doctor')}}" class="btn btn-outline">Meet Our Team</a>
+                <a href="{{route('team')}}" class="btn btn-outline">Meet Our Team</a>
               </div>
             </div>
           </div>
@@ -583,8 +583,8 @@
               </div>
               <h5>Expert Medical Team</h5>
               <p>Our experienced doctors and specialists are dedicated to delivering the highest quality care with compassion and precision.</p>
-              <a href="{{ route('doctor') }}" class="feature-link">
-                <span>Meet Our Doctors</span>
+              <a href="{{ route('team') }}" class="feature-link">
+                <span>Meet Our Team</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -734,7 +734,7 @@
                   </a>
                 </div>
                 <div class="col-sm-6 col-lg-4">
-                  <a href="{{route('doctor')}}" class="action-link">
+                  <a href="{{route('team')}}" class="action-link">
                     <i class="bi bi-person-badge"></i>
                     <span>Find a Therapist</span>
                   </a>
