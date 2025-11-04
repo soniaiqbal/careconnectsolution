@@ -19,7 +19,7 @@
 
         <div class="title-wrapper">
             <h1>About Us</h1>
-            <p>We are dedicated to making quality healthcare accessible, reliable, and connected for every individual and family.</p>
+            <!-- <p>We are dedicated to making quality healthcare accessible, reliable, and connected for every individual and family.</p> -->
         </div>
         </div><!-- End Page Title -->
 
@@ -33,10 +33,10 @@
                 <div class="content">
                 <h2>Committed to Excellence in Healthcare</h2>
                 <p>
-                    At CareConnect Solutions, we are dedicated to delivering exceptional medical care with compassion, integrity, and innovation. Our commitment is to provide every patient with personalized attention and reliable healthcare support — ensuring peace of mind at every stage of their wellness journey.
+                    At CareConnect Solutions, we are devoted to providing professional and compassionate respiratory care to individuals and families in need. Our goal is to ensure every patient receives personalized treatment that supports better breathing, improved quality of life, and long-term wellness.
                 </p>
                 <p>
-                    We combine years of medical expertise with modern care technology to make healthcare more accessible, seamless, and patient-focused. From preventive care to advanced medical guidance, our mission is to help individuals and families live healthier, happier lives.
+                    With strong clinical expertise and a patient-centered approach, we specialize in diagnosing, managing, and treating respiratory conditions using evidence-based practices and advanced therapeutic techniques. We believe healthcare should be accessible, supportive, and tailored to each patient’s needs — whether at home, in clinics, or at bedside care settings.
                 </p>
 
                 <div class="stats-container" data-aos="fade-up" data-aos-delay="200">
@@ -44,7 +44,7 @@
                     <div class="col-sm-6 col-lg-12 col-xl-6">
                         <div class="stat-item">
                         <div class="stat-number">
-                            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>+
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>+
                         </div>
                         <div class="stat-label">Years of Experience</div>
                         </div>

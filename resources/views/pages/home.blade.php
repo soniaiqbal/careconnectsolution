@@ -19,7 +19,7 @@
                   <div class="content-box">
                     <span class="badge-accent" data-aos="fade-up" data-aos-delay="150">Leading Healthcare Specialists</span>
                     <h1 data-aos="fade-up" data-aos-delay="200">Advanced Medical Care for Your Family's Health</h1>
-                    <p data-aos="fade-up" data-aos-delay="250">Caring for your family with trusted doctors and modern health solutions.</p>
+                    <p data-aos="fade-up" data-aos-delay="250">Caring for your family with trusted therapists and modern health solutions.</p>
 
                     <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
                       <a href="{{ route('contact') }}" class="btn btn-primary">Book Appointment</a>
@@ -55,8 +55,8 @@
                         <i class="bi bi-heart-pulse-fill"></i>
                       </div>
                       <div class="feature-text">
-                        <h3>Cardiology</h3>
-                        <p>Comprehensive heart care and expert guidance for a stronger, healthier life.</p>
+                        <h3>Respiratory Therapy</h3>
+                        <p>Comprehensive care to assess, manage, and treat breathing and lung conditions.</p>
                       </div>
                     </div>
                   </div>
@@ -67,8 +67,8 @@
                         <i class="bi bi-lungs-fill"></i>
                       </div>
                       <div class="feature-text">
-                        <h3>Pulmonology</h3>
-                        <p>Advanced care for respiratory health and breathing wellness.</p>
+                        <h3>Ventilator & Oxygen Support</h3>
+                        <p>Specialized management of oxygen therapy and mechanical ventilation for stable breathing.</p>
                       </div>
                     </div>
                   </div>
@@ -79,8 +79,8 @@
                         <i class="bi bi-capsule"></i>
                       </div>
                       <div class="feature-text">
-                        <h3>Diagnostics</h3>
-                        <p>Accurate testing and timely insights to support better health decisions.</p>
+                        <h3>Pulmonary Rehabilitation</h3>
+                        <p>Personalized breathing exercises and recovery programs for long-term lung health.</p>
                       </div>
                     </div>
                   </div>
@@ -103,7 +103,7 @@
             <div class="about-image">
               <img src="assets/img/health/facilities-1.webp" alt="Modern Healthcare Facility" class="img-fluid rounded-3 mb-4">
               <div class="experience-badge">
-                <span class="years">10+</span>
+                <span class="years">5+</span>
                 <span class="text">Years of Excellence</span>
               </div>
             </div>
@@ -150,13 +150,12 @@
 
     </section>
 
-    <section id="featured-departments" class="featured-departments section">
+    <!-- <section id="featured-departments" class="featured-departments section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Featured Departments</h2>
         <p>Explore our key specialties designed to provide expert care, trusted guidance, and complete support for you and your family’s health.</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -179,7 +178,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="department-card">
@@ -198,7 +197,7 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="department-card">
@@ -217,77 +216,20 @@
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
-
-          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/pediatrics-3.webp" alt="Pediatrics Department" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-baby"></i>
-                </div>
-                <h3>Pediatrics</h3>
-                <p>Specialized healthcare for children from infancy through adolescence, offering comprehensive medical care in a child-friendly environment with experienced pediatric specialists.</p>
-                <a href="department-details.html" class="btn-learn-more">
-                  <span>Learn More</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
           </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/oncology-4.webp" alt="Oncology Department" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-shield-alt"></i>
-                </div>
-                <h3>Oncology</h3>
-                <p>Comprehensive cancer care with multidisciplinary approach, offering advanced treatment options, clinical trials, and compassionate support throughout the cancer journey.</p>
-                <a href="department-details.html" class="btn-learn-more">
-                  <span>Learn More</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/emergency-2.webp" alt="Emergency Department" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-ambulance"></i>
-                </div>
-                <h3>Emergency Care</h3>
-                <p>Round-the-clock emergency medical services with rapid response capabilities, state-of-the-art equipment, and experienced emergency physicians for critical care.</p>
-                <a href="department-details.html" class="btn-learn-more">
-                  <span>Learn More</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div> -->
 
         </div>
 
       </div>
 
-    </section>
+    </section> -->
 
     <section id="featured-services" class="featured-services section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Featured Services</h2>
-        <p class="text-white">Discover our range of healthcare services designed to make quality medical care accessible, convenient, and centered around your well-being.</p>
+        <p class="text-white">Professional respiratory care services designed to support better breathing, faster recovery, and improved quality of life.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -339,15 +281,15 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
               <div class="service-icon">
-                <i class="fas fa-bone"></i>
+                <i class="fas fa-lungs"></i>
               </div>
               <div class="service-content">
-                <h3>Orthopedic Surgery</h3>
-                <p>Advanced orthopedic care for patients with bone, joint, and muscle conditions. Our specialists provide innovative surgical and non-surgical treatments to restore strength, mobility, and quality of life.</p>
+                <h3>Respiratory Therapy & Assessment</h3>
+                <p>Comprehensive evaluation and treatment for respiratory conditions to ensure efficient breathing and improved lung function.</p>
                 <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>Joint Replacement Surgery</li>
-                  <li><i class="fas fa-check-circle"></i>Sports Injury Management</li>
-                  <li><i class="fas fa-check-circle"></i>Minimally Invasive Procedures</li>
+                  <li><i class="fas fa-check-circle"></i>Respiratory assessment & monitoring</li>
+                  <li><i class="fas fa-check-circle"></i>Breathing difficulty management</li>
+                  <li><i class="fas fa-check-circle"></i>Lung health evaluation</li>
                 </ul>
                 <a href="{{ route('services') }}" class="service-btn">
                   Learn More
@@ -360,15 +302,15 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-card">
               <div class="service-icon">
-                <i class="fas fa-ambulance"></i>
+                <i class="fas fa-heartbeat"></i>
               </div>
               <div class="service-content">
-                <h3>Emergency &amp; Trauma Care</h3>
-                <p>Immediate, expert medical response for critical conditions and accidents. Our emergency team is equipped to handle urgent care needs with precision, compassion, and 24/7 availability.</p>
+                <h3>Oxygen & Ventilator Support</h3>
+                <p>Expert setup and management of oxygen therapy and mechanical ventilation for patients with breathing difficulties.</p>
                 <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i>24/7 Emergency Department</li>
-                  <li><i class="fas fa-check-circle"></i>Advanced Trauma Care Facilities</li>
-                  <li><i class="fas fa-check-circle"></i>Intensive Care Units</li>
+                  <li><i class="fas fa-check-circle"></i>Oxygen therapy setup & monitoring</li>
+                  <li><i class="fas fa-check-circle"></i>Ventilator management</li>
+                  <li><i class="fas fa-check-circle"></i>Respiratory emergency support</li>
                 </ul>
                 <a href="{{ route('services') }}" class="service-btn">
                   Learn More
@@ -794,7 +736,7 @@
                 <div class="col-sm-6 col-lg-4">
                   <a href="{{route('doctor')}}" class="action-link">
                     <i class="bi bi-person-badge"></i>
-                    <span>Find a Doctor</span>
+                    <span>Find a Therapist</span>
                   </a>
                 </div>
               </div>
